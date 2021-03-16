@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main()
+{
+    printf("he was half his size, but her arm was light years long\\n");
+    printf("He was straight-backed and strode in never-been-wet boat shoes.\n");
+    printf("How his soft honey hair jerked when Schoolgirl knocked him down.\n");
+    printf("Dookie braids escaped gravity on her head made strong\n");
+    printf("by the verdict...\n");
+  return 0;
+}
