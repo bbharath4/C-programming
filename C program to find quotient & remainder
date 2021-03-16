@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main()
+{
+    int dividend,divisor,quotient,remain;
+    printf("enter a dividend");
+    scanf("%d",&dividend);
+    printf("enter a divisor");
+    scanf("%d",&divisor);
+    quotient=dividend/divisor;
+    remain=dividend%divisor;
+    printf("the value of quotient %d\n",quotient);
+    printf("the value of remainder %d",remain);
+    return 0;
+}
