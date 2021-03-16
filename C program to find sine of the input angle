@@ -1,0 +1,13 @@
+//This is a program which finds out the sine of the input angle 
+
+#include<stdio.h>          //standard library
+#include<math.h>           //maths library
+int main(void)
+{
+	float x,y;
+	printf("Enter the angle in radians");       // asking the user for input angle
+	scanf("%f",&x);
+	y=sin(x);                                   // Using the sin() function for doing the required mathematical operation and storing the output in y
+	printf("The sine of angle %f is %f\n",x,y ); //displaying the output value which was stored in y
+	return 0;
+}
