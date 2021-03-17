@@ -1,0 +1,13 @@
+#include<stdio.h>
+main()
+{
+    char yn;
+    printf("enter y for yes or n for no");
+    yn=getchar();
+    if(yn=='y')
+     printf("you have entered yes");
+    else if(yn=='n')
+     printf("you have entered no");
+    else
+    printf("ivalid input");
+}
