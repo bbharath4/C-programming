@@ -1,0 +1,19 @@
+#include<stdio.h>
+main()
+{
+    char ch;
+    printf("enter a character in lower case:");
+    ch=getchar();
+    if(ch=='a')
+     printf("the character is a vowel");
+    else if(ch=='e')
+     printf("the character is a vowel");
+    else if(ch=='i')
+     printf("the character is a vowel");
+    else if(ch=='o')
+     printf("the character is a vowel");
+    else if(ch=='u')
+     printf("the character is a vowel");
+    else
+     printf("the character is not a vowel");
+}
