@@ -1,0 +1,25 @@
+
+
+#include <stdio.h>
+
+int main()
+{
+    char chr;
+    printf("enter a character");
+    chr=getchar();
+    if(chr>='A')
+     {
+         if(chr<='Z')
+         printf("upper case");
+         else if(chr>='a')
+         {
+             if(chr<='z')
+             printf("lower case");
+         }
+         else
+         printf("input character is >Z but less than a");
+     }
+     else
+       printf("character is less than A");
+}
+
