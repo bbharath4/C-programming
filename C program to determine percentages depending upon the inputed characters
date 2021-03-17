@@ -1,0 +1,21 @@
+#include<stdio.h>
+main()
+{
+    char inp;
+    printf("enter grade A or B or C or D or E or F:");
+    inp=getchar();
+    if(inp=='A')
+    printf("equivalent percentage is 90%");
+    else if(inp=='B')
+    printf("equivalent percentage is 80%");
+    else if(inp=='C')
+    printf("equivalent percentage is 70%");
+    else if(inp=='D')
+    printf("equivalent percentage is 60%");
+    else if(inp=='E')
+    printf("equivalent percentage is 50%");
+    else if(inp=='F')
+    printf("FAIL");
+    else
+    printf("invalid grade code");
+}
